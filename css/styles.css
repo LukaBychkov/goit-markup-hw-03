@@ -188,18 +188,18 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
-.features__list {
+.features-list {
     display: flex;
     gap: 24px;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.features__item {
+.features-item {
     width: calc((100% - 72px) / 4);
 }
 
-.features__subtitle {
+.features-subtitle {
 padding-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
@@ -207,7 +207,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.features__text {
+.features-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
